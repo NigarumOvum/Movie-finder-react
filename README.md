@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+OMDb API
+The Open Movie Database
+
+The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

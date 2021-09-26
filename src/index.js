@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import NavBar from './components/Navbar/NavBar';
+import LogoSpin from './components/LogoSpin/LogoSpin';
+import Carousel from './components/Carousel/Carousel';
+import FirstJumbotron from './components/Jumbotron/Jumbotron';
+import DataList from './components/MovieList/DataList';
+import FooterPage from './components/Footer/Footers';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ToastCont from './components/Toast/ToastContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavBar />
+    <ToastCont />
+    <LogoSpin />
+    <Carousel />
+    <FirstJumbotron />
+    <DataList />
+    <FooterPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
