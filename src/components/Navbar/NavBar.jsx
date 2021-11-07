@@ -5,8 +5,6 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -34,24 +32,19 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
+
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                More Options
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
+                  About Us
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  Opcion3
+                 More Apps
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

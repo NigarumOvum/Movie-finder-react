@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function ToastCont() {
 
   const showToast = () => {
-    toast("I hope you enjoy this App🤩")
+    toast("I hope you enjoy this App🤩 & thanks for using it")
   };
 
   return (

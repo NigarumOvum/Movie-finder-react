@@ -12,11 +12,11 @@ import ToastCont from './components/Toast/ToastContainer';
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
-    <ToastCont />
     <LogoSpin />
-    <Carousel />
     <FirstJumbotron />
+    <Carousel />
     <DataList />
+    <ToastCont />
     <FooterPage />
   </React.StrictMode>,
   document.getElementById('root')
