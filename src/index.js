@@ -5,7 +5,7 @@ import Carousel from './components/Carousel/Carousel';
 import FirstJumbotron from './components/Jumbotron/Jumbotron';
 import DataList from './components/MovieList/DataList';
 import FooterPage from './components/Footer/Footers';
-import './index.css';
+import './index.scss';
 import ToastCont from './components/Toast/ToastContainer';
 
 ReactDOM.render(
