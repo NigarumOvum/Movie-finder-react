@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './components/Navbar/NavBar';
-import LogoSpin from './components/LogoSpin/LogoSpin';
 import Carousel from './components/Carousel/Carousel';
 import FirstJumbotron from './components/Jumbotron/Jumbotron';
 import DataList from './components/MovieList/DataList';
@@ -12,7 +11,6 @@ import ToastCont from './components/Toast/ToastContainer';
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
-    <LogoSpin />
     <FirstJumbotron />
     <Carousel />
     <DataList />
