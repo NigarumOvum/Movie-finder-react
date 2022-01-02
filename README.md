@@ -4,8 +4,10 @@
 ![css3](https://img.icons8.com/color/48/000000/css3.png)
 ![sass](https://img.icons8.com/color/48/000000/sass.png)
 
-## Description
+## Description:
+Simple Web App to fetch MovieDB API to fetch data an return in with React UI Components
 
+## Deployed in: Vercel
 
 # About Me:
 
